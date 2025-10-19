@@ -12,7 +12,7 @@ Public Class MainMenu
     Dim File_ini = Path.Combine(System.Windows.Forms.Application.StartupPath, "DB_Config.ini")
     Private Sub MainMenu_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Try
-            sqlservice_check() 'ตรวจสอบ sql service ว่า start รึมั้ย ถ้าปิดยุ ให้ start
+            sqlservice_check() '===ตรวจสอบ sql service ว่า start รึมั้ย ถ้าปิดยุ ให้ start
             read_connection()
             status_show_ini() 'แสดงชื่อ database
             Check_iniconnect() 'ตรวจสอบไฟล์ ini ถ้าข้อมูลไม่มี ให้เปิดหน้าจอ กำหนด Database

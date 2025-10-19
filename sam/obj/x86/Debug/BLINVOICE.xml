@@ -6,7 +6,321 @@ BLINVOICE
 </name>
 </assembly>
 <members>
-<member name="P:BLINVOICE.My.Resources.Resources.ResourceManager">
+<member name="T:BLINVOICE.INVOICEDataSet.ADDRESSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.CODE_RUNNINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.COMPANYDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMER_TYPEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.DOCTYPEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTS_TYPEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.PROVINCEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.SALESMANDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.TRANDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.TRANMAINDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.ADDRESSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.CODE_RUNNINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.COMPANYRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMER_TYPERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.DOCTYPERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTS_TYPERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.PROVINCERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.SALESMANRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.TRANDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.TRANMAINRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.ADDRESSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.CODE_RUNNINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.COMPANYRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMER_TYPERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.DOCTYPERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTS_TYPERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.PROVINCERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.SALESMANRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.TRANDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet.TRANMAINRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.ADDRESSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.CODE_RUNNINGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.COMPANYTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.CUSTOMERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.CUSTOMER_TYPETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.DOCTYPETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.PRODUCTSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.PRODUCTS_TYPETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.PROVINCETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.SALESMANTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TRANDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TRANMAINTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BLINVOICE.INVOICEDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BLINVOICE.INVOICEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BLINVOICE.INVOICEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateAll(BLINVOICE.INVOICEDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:BLINVOICE.TabControlEx.readingColour">
+	<summary>
+ The colour in which to display tabs for pages that are being read.
+ </summary>
+</member><member name="F:BLINVOICE.TabControlEx.readColour">
+	<summary>
+ The colour in which to display tabs for pages containing all read data.
+ </summary>
+</member><member name="F:BLINVOICE.TabControlEx.tabColours">
+	<summary>
+ The colours in which to display the tabs.
+ </summary>
+</member><member name="M:BLINVOICE.TabControlEx.SetTabUnread(System.Int32)">
+	<summary>
+ Sets the colour of a tab to the unread colour.
+ </summary>
+	<param name="index">
+ The index of the tab for which to set the colour.
+ </param>
+</member><member name="M:BLINVOICE.TabControlEx.SetTabRead(System.Int32)">
+	<summary>
+ Sets the colour of a tab to the read colour.
+ </summary>
+	<param name="index">
+ The index of the tab for which to set the colour.
+ </param>
+</member><member name="M:BLINVOICE.TabControlEx.SetTabReading(System.Int32)">
+	<summary>
+ Sets the colour of a tab to the reading colour.
+ </summary>
+	<param name="index">
+ The index of the tab for which to set the colour.
+ </param>
+</member><member name="M:BLINVOICE.TabControlEx.SetTabColour(System.Int32,System.Drawing.Color)">
+	<summary>
+ Sets the colour of a tab.
+ </summary>
+	<param name="index">
+ The index of the tab for which to set the colour.
+ </param>
+	<param name="colour">
+ The colour to which to set the tab.
+ </param>
+</member><member name="M:BLINVOICE.TabControlEx.AddTabPage(System.String)">
+	<summary>
+ Adds a new tab page to the end of the tab control.
+ </summary>
+	<param name="text">
+ The text to display on the tab.
+ </param>
+	<remarks>
+ The tab is initially displayed using the read colour.
+ </remarks>
+</member><member name="M:BLINVOICE.TabControlEx.InsertTabPage(System.Int32,System.String)">
+	<summary>
+ Adds a new tab page to the tab control at the specified index.
+ </summary>
+	<param name="index">
+ The index at which to insert the tab.
+ </param>
+	<param name="text">
+ The text to display on the tab.
+ </param>
+	<remarks>
+ The tab is initially displayed using the read colour.
+ </remarks>
+</member><member name="M:BLINVOICE.TabControlEx.OnSelected(System.Windows.Forms.TabControlEventArgs)">
+	<summary>
+ Raises the <see cref="E:System.Windows.Forms.TabControl.Selected">Selected</see> event.
+ </summary>
+	<param name="e">
+ The data for the event.
+ </param>
+	<remarks>
+ The selected tab is displayed in the reading colour.
+ </remarks>
+</member><member name="M:BLINVOICE.TabControlEx.OnDeselected(System.Windows.Forms.TabControlEventArgs)">
+	<summary>
+ Raises the <see cref="E:System.Windows.Forms.TabControl.Deselected">Deselected</see> event.
+ </summary>
+	<param name="e">
+ The data for the event.
+ </param>
+	<remarks>
+ The deselected tab is displayed in the read colour.
+ </remarks>
+</member><member name="P:BLINVOICE.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -803,320 +1117,6 @@ Used to sort self-referenced table's rows
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.ADDRESSDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.CODE_RUNNINGDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.COMPANYDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMERDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMER_TYPEDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.DOCTYPEDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTSDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTS_TYPEDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.PROVINCEDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.SALESMANDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.TRANDETAILDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.TRANMAINDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.ADDRESSRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.CODE_RUNNINGRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.COMPANYRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMERRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMER_TYPERow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.DOCTYPERow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTSRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTS_TYPERow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.PROVINCERow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.SALESMANRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.TRANDETAILRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.TRANMAINRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.ADDRESSRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.CODE_RUNNINGRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.COMPANYRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMERRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.CUSTOMER_TYPERowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.DOCTYPERowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTSRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.PRODUCTS_TYPERowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.PROVINCERowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.SALESMANRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.TRANDETAILRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet.TRANMAINRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSet">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.ADDRESSTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.CODE_RUNNINGTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.COMPANYTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.CUSTOMERTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.CUSTOMER_TYPETableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.DOCTYPETableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.PRODUCTSTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.PRODUCTS_TYPETableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.PROVINCETableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.SALESMANTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TRANDETAILTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TRANMAINTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BLINVOICE.INVOICEDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BLINVOICE.INVOICEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BLINVOICE.INVOICEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateAll(BLINVOICE.INVOICEDataSet)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="F:BLINVOICE.TabControlEx.readingColour">
-	<summary>
- The colour in which to display tabs for pages that are being read.
- </summary>
-</member><member name="F:BLINVOICE.TabControlEx.readColour">
-	<summary>
- The colour in which to display tabs for pages containing all read data.
- </summary>
-</member><member name="F:BLINVOICE.TabControlEx.tabColours">
-	<summary>
- The colours in which to display the tabs.
- </summary>
-</member><member name="M:BLINVOICE.TabControlEx.SetTabUnread(System.Int32)">
-	<summary>
- Sets the colour of a tab to the unread colour.
- </summary>
-	<param name="index">
- The index of the tab for which to set the colour.
- </param>
-</member><member name="M:BLINVOICE.TabControlEx.SetTabRead(System.Int32)">
-	<summary>
- Sets the colour of a tab to the read colour.
- </summary>
-	<param name="index">
- The index of the tab for which to set the colour.
- </param>
-</member><member name="M:BLINVOICE.TabControlEx.SetTabReading(System.Int32)">
-	<summary>
- Sets the colour of a tab to the reading colour.
- </summary>
-	<param name="index">
- The index of the tab for which to set the colour.
- </param>
-</member><member name="M:BLINVOICE.TabControlEx.SetTabColour(System.Int32,System.Drawing.Color)">
-	<summary>
- Sets the colour of a tab.
- </summary>
-	<param name="index">
- The index of the tab for which to set the colour.
- </param>
-	<param name="colour">
- The colour to which to set the tab.
- </param>
-</member><member name="M:BLINVOICE.TabControlEx.AddTabPage(System.String)">
-	<summary>
- Adds a new tab page to the end of the tab control.
- </summary>
-	<param name="text">
- The text to display on the tab.
- </param>
-	<remarks>
- The tab is initially displayed using the read colour.
- </remarks>
-</member><member name="M:BLINVOICE.TabControlEx.InsertTabPage(System.Int32,System.String)">
-	<summary>
- Adds a new tab page to the tab control at the specified index.
- </summary>
-	<param name="index">
- The index at which to insert the tab.
- </param>
-	<param name="text">
- The text to display on the tab.
- </param>
-	<remarks>
- The tab is initially displayed using the read colour.
- </remarks>
-</member><member name="M:BLINVOICE.TabControlEx.OnSelected(System.Windows.Forms.TabControlEventArgs)">
-	<summary>
- Raises the <see cref="E:System.Windows.Forms.TabControl.Selected">Selected</see> event.
- </summary>
-	<param name="e">
- The data for the event.
- </param>
-	<remarks>
- The selected tab is displayed in the reading colour.
- </remarks>
-</member><member name="M:BLINVOICE.TabControlEx.OnDeselected(System.Windows.Forms.TabControlEventArgs)">
-	<summary>
- Raises the <see cref="E:System.Windows.Forms.TabControl.Deselected">Deselected</see> event.
- </summary>
-	<param name="e">
- The data for the event.
- </param>
-	<remarks>
- The deselected tab is displayed in the read colour.
- </remarks>
 </member>
 </members>
 </doc>
